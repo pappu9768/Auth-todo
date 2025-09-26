@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+.container {
+    height: 110px;
+    width: 180px;
+    border: 1.5px solid #000;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 12px;
+    background: #da70d6;
+    position: relative;
+
+}
+
+.del-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.upt-icon{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    font-size: 22px;
+    color: aquamarine;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+
+}
+
+.del-icon:hover{
+    color: darkred;
+}
+.container h4 {
+    margin-bottom: 5px;
+    border-bottom: 2.5px solid #000;
+    font-size: 1.15rem;
+}
